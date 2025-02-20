@@ -1,7 +1,6 @@
 import { Home, Users, Key, MessageCircle, Shield, Search } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import AnimatedBackground from "@/components/AnimatedBackground";
-import SocialLinks from "@/components/SocialLinks";
 
 interface FeatureCardProps {
   icon: React.ReactNode;
@@ -160,7 +159,6 @@ const Features = () => {
           </div>
         </section>
       </div>
-      <SocialLinks />
     </div>
   );
 };
