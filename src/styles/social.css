@@ -1,0 +1,58 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.socialContainer {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+  border-radius: 8px;
+}
+
+.containerOne:hover {
+  background-color: #d62976;
+  transform: translateY(-2px);
+}
+
+.containerTwo:hover {
+  background-color: #00acee;
+  transform: translateY(-2px);
+}
+
+.containerThree:hover {
+  background-color: #0072b1;
+  transform: translateY(-2px);
+}
+
+.containerFour:hover {
+  background-color: #128C7E;
+  transform: translateY(-2px);
+}
+
+.socialContainer:active {
+  transform: scale(0.95) translateY(0);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+  filter: brightness(1.2);
+}
+
+.socialSvg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+  transition: all 0.3s ease;
+} 
