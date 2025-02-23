@@ -2,11 +2,12 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import AnimatedBackground from "@/components/AnimatedBackground";
 
-import ShalukaImg from "@/assets/Shaluka.jpeg";
-import BemalImg from "@/assets/Bemal.jpeg";
-import DilshanImg from "@/assets/Dilshan.jpeg";
-import JoshanthImg from "@/assets/Joshanth.jpeg";
-import UdayangaImg from "@/assets/Udayanga.jpeg";
+// Import images using dynamic imports to ensure proper bundling
+import ShalukaImg from "../assets/Shaluka.jpeg";
+import BemalImg from "../assets/Bemal.jpeg";
+import DilshanImg from "../assets/Dilshan.jpeg";
+import JoshanthImg from "../assets/Joshanth.jpeg";
+import UdayangaImg from "../assets/Udayanga.jpeg";
 
 interface TeamMemberCardProps {
   name: string;
