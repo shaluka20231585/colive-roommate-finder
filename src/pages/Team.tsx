@@ -2,6 +2,12 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import AnimatedBackground from "@/components/AnimatedBackground";
 
+import ShalukaImg from "@/assets/Shaluka.jpeg";
+import BemalImg from "@/assets/Bemal.jpeg";
+import DilshanImg from "@/assets/Dilshan.jpeg";
+import JoshanthImg from "@/assets/Joshanth.jpeg";
+import UdayangaImg from "@/assets/Udayanga.jpeg";
+
 interface TeamMemberCardProps {
   name: string;
   role: string;
@@ -86,7 +92,7 @@ const teamMembers: TeamMemberCardProps[] = [
     name: "Shaluka Perera",
     role: "Project Manager and UI/UX Designer",
     description: "Leader of the Project.",
-    image: "/src/assets/Shaluka.jpeg",
+    image: ShalukaImg,
     links: {
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/shaluka-perera-413963310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -97,7 +103,7 @@ const teamMembers: TeamMemberCardProps[] = [
     name: "Bemal Jayasinghe",
     role: "Front End Developer/ Marketing Manager",
     description: "Head Of The Marketing Department",
-    image: "/src/assets/Bemal.jpeg",
+    image: BemalImg,
     links: {
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/bemal-jayasinghe-b77a162a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -108,7 +114,7 @@ const teamMembers: TeamMemberCardProps[] = [
     name: "Dilshan Manohara",
     role: "Backend Developer And Database Manager",
     description: "Head Of The Back End Actions",
-    image: "/src/assets/Dilshan.jpeg",
+    image: DilshanImg,
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -119,7 +125,7 @@ const teamMembers: TeamMemberCardProps[] = [
     name: "Terence Joshanth",
     role: "Backend Developer",
     description: "Handling the Backend of the Project",
-    image: "/src/assets/Joshanth.jpeg",
+    image: JoshanthImg,
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -130,7 +136,7 @@ const teamMembers: TeamMemberCardProps[] = [
     name: "Givindu Udayanga",
     role: "Front End Developer 2",
     description: "Handling the Front End of the Project",
-    image: "/src/assets/Udayanga.jpeg",
+    image: UdayangaImg,
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
