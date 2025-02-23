@@ -86,7 +86,7 @@ const teamMembers: TeamMemberCardProps[] = [
     name: "Shaluka Perera",
     role: "Project Manager and UI/UX Designer",
     description: "Leader of the Project.",
-    image: "/src/assets/Shaluka.jpg",
+    image: "/src/assets/Shaluka.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/shaluka-perera-413963310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -97,7 +97,7 @@ const teamMembers: TeamMemberCardProps[] = [
     name: "Bemal Jayasinghe",
     role: "Front End Developer/ Marketing Manager",
     description: "Head Of The Marketing Department",
-    image: "/src/assets/Bemal.jpg",
+    image: "/src/assets/Bemal.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/bemal-jayasinghe-b77a162a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -108,7 +108,7 @@ const teamMembers: TeamMemberCardProps[] = [
     name: "Dilshan Manohara",
     role: "Backend Developer And Database Manager",
     description: "Head Of The Back End Actions",
-    image: "/src/assets/Dilshan.jpg",
+    image: "/src/assets/Dilshan.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -119,7 +119,7 @@ const teamMembers: TeamMemberCardProps[] = [
     name: "Terence Joshanth",
     role: "Backend Developer",
     description: "Handling the Backend of the Project",
-    image: "/src/assets/Joshanth.jpg",
+    image: "/src/assets/Joshanth.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -130,7 +130,7 @@ const teamMembers: TeamMemberCardProps[] = [
     name: "Givindu Udayanga",
     role: "Front End Developer 2",
     description: "Handling the Front End of the Project",
-    image: "/src/assets/Udayanga.jpg",
+    image: "/src/assets/Udayanga.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
