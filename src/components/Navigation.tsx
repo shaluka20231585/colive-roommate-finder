@@ -8,7 +8,7 @@ const Navigation = () => {
 
   const menuItems = [
     { name: "Features", href: "/features" },
-    { name: "Our Team", href: "/team" },
+    { name: "Our Team", href: "/team" },  // Changed from "/" to "/team"
     { name: "Documentation", href: "#documentation" },
     { name: "GitHub", href: "https://github.com" },
   ];

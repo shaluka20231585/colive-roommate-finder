@@ -7,7 +7,7 @@ import Navigation from "./components/Navigation";
 import Index from "./pages/Index";
 import Features from "./pages/Features";
 import NotFound from "./pages/NotFound";
-
+import TeamPage from "./pages/Team";  // Add this import
 
 const queryClient = new QueryClient();
 
@@ -21,7 +21,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/features" element={<Features />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/team" element={<TeamPage />} />  {/* Add this route */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
