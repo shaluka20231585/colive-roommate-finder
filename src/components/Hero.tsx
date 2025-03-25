@@ -53,12 +53,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-
-        <div className="animate-fade-in mt-12 flex flex-wrap justify-center gap-8">
-          <GradientButton>React.js Frontend</GradientButton>
-          <GradientButton>Java Powered</GradientButton>
-          <GradientButton>Enhanced Algorithm</GradientButton>
-        </div>
+        
       </div>
     </div>
   );
